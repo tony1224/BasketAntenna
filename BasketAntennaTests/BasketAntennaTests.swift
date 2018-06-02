@@ -33,4 +33,9 @@ class BasketAntennaTests: XCTestCase {
         }
     }
     
+    // 画面に表示された文字列があっているか
+    func testLabel() {
+        
+    }
+    
 }

@@ -13,6 +13,8 @@
 		53B67B0020BA929F00549D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B67AFF20BA929F00549D08 /* Assets.xcassets */; };
 		53B67B0320BA929F00549D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B67B0120BA929F00549D08 /* LaunchScreen.storyboard */; };
 		53B67B0E20BA929F00549D08 /* BasketAntennaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B67B0D20BA929F00549D08 /* BasketAntennaTests.swift */; };
+		8F7816CB0E11EA25B9463289 /* Pods_BasketAntenna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D9F3E75064A1F5BD6A91D2 /* Pods_BasketAntenna.framework */; };
+		C9FDDEBED47C4C46E8B6D593 /* Pods_BasketAntennaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1988372B5E1BFAF226731948 /* Pods_BasketAntennaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1988372B5E1BFAF226731948 /* Pods_BasketAntennaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasketAntennaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2562350B531A56A1AB6F8C25 /* Pods-BasketAntennaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketAntennaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasketAntennaTests/Pods-BasketAntennaTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FEE647A95674DACD6C2DCF2 /* Pods-BasketAntennaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketAntennaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasketAntennaTests/Pods-BasketAntennaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		53B67AF520BA929F00549D08 /* BasketAntenna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketAntenna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B67AF820BA929F00549D08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53B67AFA20BA929F00549D08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		53B67B0920BA929F00549D08 /* BasketAntennaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketAntennaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B67B0D20BA929F00549D08 /* BasketAntennaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketAntennaTests.swift; sourceTree = "<group>"; };
 		53B67B0F20BA929F00549D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DB2AE9704F2276726DDC47 /* Pods-BasketAntenna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketAntenna.release.xcconfig"; path = "Pods/Target Support Files/Pods-BasketAntenna/Pods-BasketAntenna.release.xcconfig"; sourceTree = "<group>"; };
+		91D9F3E75064A1F5BD6A91D2 /* Pods_BasketAntenna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasketAntenna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF32842BC7436AF82145F5AC /* Pods-BasketAntenna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasketAntenna.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasketAntenna/Pods-BasketAntenna.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7816CB0E11EA25B9463289 /* Pods_BasketAntenna.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FDDEBED47C4C46E8B6D593 /* Pods_BasketAntennaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		445826085C7C5E2FBBA57F2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF32842BC7436AF82145F5AC /* Pods-BasketAntenna.debug.xcconfig */,
+				53DB2AE9704F2276726DDC47 /* Pods-BasketAntenna.release.xcconfig */,
+				4FEE647A95674DACD6C2DCF2 /* Pods-BasketAntennaTests.debug.xcconfig */,
+				2562350B531A56A1AB6F8C25 /* Pods-BasketAntennaTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		53B67AEC20BA929F00549D08 = {
 			isa = PBXGroup;
 			children = (
 				53B67AF720BA929F00549D08 /* BasketAntenna */,
 				53B67B0C20BA929F00549D08 /* BasketAntennaTests */,
 				53B67AF620BA929F00549D08 /* Products */,
+				445826085C7C5E2FBBA57F2E /* Pods */,
+				CE0F4BBB64A9D16354FD937E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = BasketAntennaTests;
 			sourceTree = "<group>";
 		};
+		CE0F4BBB64A9D16354FD937E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91D9F3E75064A1F5BD6A91D2 /* Pods_BasketAntenna.framework */,
+				1988372B5E1BFAF226731948 /* Pods_BasketAntennaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53B67B1220BA929F00549D08 /* Build configuration list for PBXNativeTarget "BasketAntenna" */;
 			buildPhases = (
+				6E6B04718E615DB5EE732816 /* [CP] Check Pods Manifest.lock */,
 				53B67AF120BA929F00549D08 /* Sources */,
 				53B67AF220BA929F00549D08 /* Frameworks */,
 				53B67AF320BA929F00549D08 /* Resources */,
+				189D1BB72DBBEC98D45350D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 53B67B1520BA929F00549D08 /* Build configuration list for PBXNativeTarget "BasketAntennaTests" */;
 			buildPhases = (
+				7475DE369F06EADD33291F5C /* [CP] Check Pods Manifest.lock */,
 				53B67B0520BA929F00549D08 /* Sources */,
 				53B67B0620BA929F00549D08 /* Frameworks */,
 				53B67B0720BA929F00549D08 /* Resources */,
+				3CFC692072E1A1675CA97F62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -146,7 +182,7 @@
 				TargetAttributes = {
 					53B67AF420BA929F00549D08 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					53B67B0820BA929F00549D08 = {
 						CreatedOnToolsVersion = 9.2;
@@ -193,6 +229,87 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		189D1BB72DBBEC98D45350D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasketAntenna/Pods-BasketAntenna-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasketAntenna/Pods-BasketAntenna-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFC692072E1A1675CA97F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BasketAntennaTests/Pods-BasketAntennaTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BasketAntennaTests/Pods-BasketAntennaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E6B04718E615DB5EE732816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasketAntenna-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7475DE369F06EADD33291F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BasketAntennaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		53B67AF120BA929F00549D08 /* Sources */ = {
@@ -351,13 +468,17 @@
 		};
 		53B67B1320BA929F00549D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF32842BC7436AF82145F5AC /* Pods-BasketAntenna.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DNFCB4KFUA;
 				INFOPLIST_FILE = BasketAntenna/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.project.kamui.BasketAntenna;
+				PRODUCT_BUNDLE_IDENTIFIER = kamui.baseketantenna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3621de60-89c0-48b3-8d1f-d413db3e9b72";
+				PROVISIONING_PROFILE_SPECIFIER = kamui.BasketDev;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,13 +486,18 @@
 		};
 		53B67B1420BA929F00549D08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53DB2AE9704F2276726DDC47 /* Pods-BasketAntenna.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DNFCB4KFUA;
 				INFOPLIST_FILE = BasketAntenna/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.project.kamui.BasketAntenna;
+				PRODUCT_BUNDLE_IDENTIFIER = kamui.baseketantenna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f43a9cee-fae8-40a8-b41a-5c5714080d2d";
+				PROVISIONING_PROFILE_SPECIFIER = kamui.BasketDis;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,6 +505,7 @@
 		};
 		53B67B1620BA929F00549D08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEE647A95674DACD6C2DCF2 /* Pods-BasketAntennaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,6 +522,7 @@
 		};
 		53B67B1720BA929F00549D08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2562350B531A56A1AB6F8C25 /* Pods-BasketAntennaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

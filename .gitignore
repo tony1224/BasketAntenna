@@ -4,3 +4,6 @@ Pods/*
 # Xcode
 *.xcworkspace
 !default.xcworkspace
+
+Podfile.lock
+Gemfile.lock

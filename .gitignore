@@ -6,4 +6,3 @@ Pods/*
 !default.xcworkspace
 
 Podfile.lock
-Gemfile.lock

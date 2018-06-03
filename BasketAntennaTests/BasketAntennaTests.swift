@@ -13,7 +13,7 @@ class BasketAntennaTests: XCTestCase {
     
     func test_足し算の計算が合うこと() {
         let sample = Sample()
-        XCTAssertEqual(5, sample.add(a: 0, b: 3))
+        XCTAssertEqual(5, sample.add(a: 1, b: 4))
     }
     
 }

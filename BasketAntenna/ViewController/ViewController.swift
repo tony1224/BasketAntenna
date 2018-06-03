@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Test Fuga
+        // Test Fuga2
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,5 +13,5 @@ warn("誰もアサインされていないようです。", sticky: false) unles
 fail "変更がまったく無いようです。" if git.modified_files.empty? &amp;&amp; git.added_files.empty? &amp&amp; git.deleted_files.empty?
 
 # run swiftlint
-# swiftlint.config_file = '.swiftlint.yml'
-# swiftlint.lint_files inline_mode: true
+swiftlint.config_file = '.swiftlint.yml'
+swiftlint.lint_files inline_mode: true

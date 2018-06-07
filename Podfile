@@ -8,6 +8,7 @@ target 'BasketAntenna' do
   # Pods for BasketAntenna
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'SwiftLint'
 
   target 'BasketAntennaTests' do
     inherit! :search_paths

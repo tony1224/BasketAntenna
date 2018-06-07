@@ -1,0 +1,19 @@
+# 1行あたりの文字数制限
+line_length: 300
+
+# 実行から除外するルール
+disabled_rules:
+- trailing_whitespace
+- vertical_whitespace
+- trailing_newline
+
+# テストコード, Pod等のライブラリは対象外
+excluded:
+- Pods/
+- BasketAntennaTests/
+- Podfile
+- Podfile.lock
+- Dangerfile
+- Gemfile
+- Gemfile.lock
+- README.md

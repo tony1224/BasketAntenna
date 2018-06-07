@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Test Test
       
       // Hoge
-      // Fuga
+      // Fuga2
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,3 +1,5 @@
+github.add_labels 'In Danger'
+
 # プルリクがでかすぎる
 warn("プルリクの変更箇所が多すぎるので分割しましょう。") if git.lines_of_code > 500
 
@@ -15,3 +17,11 @@ fail "変更がまったく無いようです。" if git.modified_files.empty? &
 # run swiftlint
 swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
+
+if checker.has_errors? || checker.has_warnings?
+  markdown('PR内容を確認してからもう一度レビュー依頼をしてください')
+else 
+  markdown('PRを確認しました')
+  markdown('レビューをお願いしますmm')
+  github.add_labels 'In Review'
+end

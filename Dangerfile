@@ -13,9 +13,9 @@ warn("誰もアサインされていないようです。", sticky: false) unles
 swiftlint.config_file = '.swiftlint.yml'
 swiftlint.lint_files inline_mode: true
 
-if checker.has_errors? || checker.has_warnings?
-  markdown('PR内容を確認してからもう一度レビュー依頼をしてください')
-else 
-  markdown('PRを確認しました')
-  markdown('レビューをお願いしますmm')
-end
+#if checker.has_errors? || checker.has_warnings?
+#  markdown('PR内容を確認してからもう一度レビュー依頼をしてください')
+#else 
+#  markdown('PRを確認しました')
+#  markdown('レビューをお願いしますmm')
+#end

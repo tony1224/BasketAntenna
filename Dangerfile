@@ -1,4 +1,4 @@
-github.add_labels 'In Danger'
+danger.github.api.add_label("In Danger")
 
 # プルリクがでかすぎる
 warn("プルリクの変更箇所が多すぎるので分割しましょう。") if git.lines_of_code > 500
@@ -20,5 +20,5 @@ if checker.has_errors? || checker.has_warnings?
 else 
   markdown('PRを確認しました')
   markdown('レビューをお願いしますmm')
-  github.add_labels 'In Review'
+  danger.github.api.add_label("In Review")
 end

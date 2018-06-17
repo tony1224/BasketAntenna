@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Test Hoge
         print("Refactoring Master")
+        print("Modify Master")
     }
 
     override func didReceiveMemoryWarning() {

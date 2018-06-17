@@ -20,8 +20,14 @@ class ViewController: UIViewController {
         print("Renewal Feature Branch")
         print("Check SourceControl in Xcode")
         print("Re: Master")
+        
+        // 業増やしてみる
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

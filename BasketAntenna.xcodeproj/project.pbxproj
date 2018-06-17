@@ -87,20 +87,6 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		5355D7DA20C2B08200199FCC /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		5355D7DB20C2B08800199FCC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		53B67AEC20BA929F00549D08 = {
 			isa = PBXGroup;
 			children = (
@@ -124,8 +110,6 @@
 		53B67AF720BA929F00549D08 /* BasketAntenna */ = {
 			isa = PBXGroup;
 			children = (
-				5355D7DB20C2B08800199FCC /* View */,
-				5355D7DA20C2B08200199FCC /* ViewModel */,
 				5355D7D920C2B07A00199FCC /* ViewController */,
 				53B67AF820BA929F00549D08 /* AppDelegate.swift */,
 				53B67AFC20BA929F00549D08 /* Main.storyboard */,

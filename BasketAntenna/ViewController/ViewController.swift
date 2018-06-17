@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         // Test Hoge
         print("Refactoring Master")
         print("Refactoring Conflict")
+        print("Renewal Feature Branch")
     }
 
     override func didReceiveMemoryWarning() {

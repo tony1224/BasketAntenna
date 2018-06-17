@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         print("Refactoring Conflict")
         print("Update Master Comment")
         print("Dummy Comment From Master")
+        print("Renewal Feature Branch")
+        print("Check SourceControl in Xcode")
     }
 
     override func didReceiveMemoryWarning() {

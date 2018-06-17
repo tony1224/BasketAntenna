@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         print("Dummy Comment From Master")
         print("Renewal Feature Branch")
         print("Check SourceControl in Xcode")
+        print("Re: Master")
     }
 
     override func didReceiveMemoryWarning() {

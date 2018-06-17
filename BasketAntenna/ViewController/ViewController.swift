@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         print("Renewal Feature Branch")
         print("Check SourceControl in Xcode")
         print("Hogehoge-")
+        
+        print("ほげ？")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {

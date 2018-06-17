@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         print("Refactoring Master")
         print("Refactoring Conflict")
         print("Update Master Comment")
+        print("Dummy Comment From Master")
     }
 
     override func didReceiveMemoryWarning() {
